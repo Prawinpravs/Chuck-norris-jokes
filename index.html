@@ -25,60 +25,59 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 col">
                     <h1 class=" mt-5">Chuck Norries</h1>
-                    <div class="btn-group h-75 d-inline-block ml-2 mr-2 bg-dark rounded-lg p-5">
-
-                        <ul class="d-flex p-0">
-                            <li class="list-unstyled m-1"><button class="btn btn-outline-primary" value="Animal"
+                    <div class="card h-75 bg-dark rounded-lg">
+                        <ul class="d-flex p-0 m-auto">
+                            <li class="list-unstyled m-2"><button class="btn btn-outline-primary" value="Animal"
                                     onclick="animal()">Animal</button>
                             </li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Career"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Career"
                                     onclick="career()">Career</button></li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Celebrity"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Celebrity"
                                     onclick="celebrity()">Celebrity</button>
                             </li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Dev"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Dev"
                                     onclick="dev()">Dev</button></li>
 
                         </ul>
 
-                        <ul class="d-flex p-0">
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Explicit"
+                        <ul class="d-flex p-0 m-auto">
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Explicit"
                                     onclick="explicit()">Explicit</button>
                             </li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Fashion"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Fashion"
                                     onclick="fashion()">Fashion</button>
                             </li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Food"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Food"
                                     onclick="food()">Food</button></li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="History"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="History"
                                     onclick="hist()">History</button>
                             </li>
 
                         </ul>
 
-                        <ul class="d-flex p-0">
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Money"
+                        <ul class="d-flex p-0 m-auto">
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Money"
                                     onclick="money()">Money</button></li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Music"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Music"
                                     onclick="music()">Music</button></li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Movie"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Movie"
                                     onclick="movie()">Movie</button></li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Political"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Political"
                                     onclick="political()">Political</button>
                             </li>
 
                         </ul>
 
-                        <ul class="d-flex p-0">
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Religion"
+                        <ul class="d-flex p-0 m-auto">
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Religion"
                                     onclick="religion()">Religion</button>
                             </li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Science"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Science"
                                     onclick="science()">Science</button>
                             </li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Sport"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Sport"
                                     onclick="sport()">Sport</button></li>
-                            <li class="list-unstyled  m-1"><button class="btn btn-outline-primary " value="Travel"
+                            <li class="list-unstyled  m-2"><button class="btn btn-outline-primary " value="Travel"
                                     onclick="travel()">Travel</button></li>
 
                         </ul>
@@ -87,13 +86,12 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 col">
                     <span class="text-center m-auto">
                         <h4 class="mb-4 mt-5 font-smaller">Selected category: <span id="btnResult"></span></h4>
-                        <div
-                            class="card w-75 h-75 m-auto bg-primary align-items-center justify-content-center text-left">
+                        <div class="card h-75 bg-primary align-items-center justify-content-center text-left">
                             <p class="text-white m-3" id="jokes"></p>
                         </div>
                         <div class="text-center m-3">
-                            <button class="btn mb-2 text-primary font-weight-bold focus-none" onclick="newJokes()"
-                                value="New Jokes">New Joke</button>
+                            <button class="new-joke mb-2 font-weight-bold " onclick="newJokes()" value="New Jokes">New
+                                Joke</button>
                         </div>
                         <hr class="w-25 pb-lg-1 mb-5 bg-dark rounded-lg">
                         <br>
@@ -102,7 +100,8 @@
 
             </div>
         </div>
-            <!--  JS local file-->
+        <!-- Boostrap JS -->
+
         <script type="text/javascript" src="script.js"></script>
     </body>
 
